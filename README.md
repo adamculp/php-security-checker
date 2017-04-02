@@ -1,9 +1,9 @@
 # php-security-checker
 
-The objective is to provide a quick report of PHP security alerts, based on the contents from a composer.lock 
-file, in an easy to use Docker image.
+The objective is to provide a quick report of PHP security alerts, based on the contents from a given 
+composer.lock file, in an easy to use Docker image.
 
-More specifically this image includes:
+More specifically this image provides an easy interface to use:
 
 - sensiolabs/security-checker
 
@@ -11,8 +11,6 @@ More specifically this image includes:
 
 Windows users: The use of "$PWD" for present working directory will not work as expected, instead use the full path. 
 Such as "//c/Users/adamculp/project".
-
-Note: This container does nothing when invoking it without a command, such as:
 
 ```
 $ cd </path/to/desired/directory>
