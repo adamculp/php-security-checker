@@ -1,11 +1,14 @@
 # php-security-checker
 
-The objective is to provide a quick report of PHP security alerts, based on the contents from a given 
+The objective is to provide a quick report of known PHP security alerts, based on the contents from a given 
 composer.lock file, in an easy to use Docker image.
 
 More specifically this image provides an easy interface to use:
 
 - sensiolabs/security-checker
+
+IMPORTANT: This tool makes no claims of being an exhaustive reference of security issues. As such, it is 
+merely a tool to highlight possibilities, and should not be relied upon as a sole reference.
 
 ## Usage
 
